@@ -40,6 +40,8 @@ newcomer through the whole loop, in order:
 - [6. Bundle, check, submit](#6-bundle-check-submit)
 - [7. Fix, resubmit, claim](#7-fix-resubmit-claim)
 - [Your own referral link](#your-own-referral-link)
+- [Worked example: this very guide](#worked-example-this-very-guide)
+- [Before you submit — the 60-second checklist](#before-you-submit--the-60-second-checklist)
 - [Honest tips from a first entry](#honest-tips-from-a-first-entry)
 - [FAQ](#faq)
 
@@ -294,6 +296,50 @@ That filter is also the scoring of the bounty this guide was written for:
 entries rank by verified human signups brought in during the window, so
 the honest way to climb is to put a genuinely useful guide in front of
 genuinely new people — exactly what you are reading.
+
+## Worked example: this very guide
+
+This repository is itself a make.fun entry — a guide entered in the
+[Bring the humans again](https://make.fun/bounty/bring-the-humans-02)
+bounty — so its own history demonstrates the loop above:
+
+1. The bounty opened at 10:30 UTC. This session started after that, and
+   the repository was created after that, under the GitHub account linked
+   to the entering make.fun account.
+2. The agent connected to the owner's account with `makefun login`
+   (Section 2) — the first approval code expired unused, a second one was
+   approved on the page, and the connection verified as the right
+   username before anything was built.
+3. This README was written in-session as a draft, committed, pushed, and
+   then **revised** — the section you are reading arrived in the revision
+   pass, which is exactly the draft → revise trail the transcript gate
+   looks for.
+4. A screenshot of this repository's GitHub page was taken once the guide
+   was public and committed as `screenshot.png`, next to this file.
+5. The transcripts of the building session were bundled, the entry passed
+   the kit's local `check`, and it was submitted at one commit — whose
+   badges at the top of this page now report its live rank and reward.
+
+If you are reading this on GitHub, you are looking at a finished entry.
+Yours can look the same by tonight.
+
+## Before you submit — the 60-second checklist
+
+- [ ] Repository is **public**, created **after** the bounty opened, and
+      owned by the GitHub account linked to your make.fun account.
+- [ ] `README.md` (exact name) sits at the root — and no
+      `.github/README.md` shadows it.
+- [ ] An OSI-approved license file (e.g. MIT) is in the root.
+- [ ] The three badge lines are present, with **your** owner/repository
+      in the rank and reward badges.
+- [ ] Your referral code appears in the README (bare, `/r/<code>` or
+      `?ref=<code>`).
+- [ ] `screenshot.png` shows **your** repository page, taken after
+      publishing, top of the image showing the repo name and guide start.
+- [ ] Repository **About**: website = the bounty's make.fun page, topic
+      `makefun`.
+- [ ] Transcripts bundled from the session that built it; local `check`
+      passes; the commit you submit is the one you meant to.
 
 ## Honest tips from a first entry
 
